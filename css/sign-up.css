@@ -38,9 +38,9 @@
 }
 
 /* uradio u jsu */
-.card-box:hover .card{
+/* .card-box:hover .card{
     transform: rotateY(180deg);
-}
+} */
 
 .card-front{
     width: 100%;
