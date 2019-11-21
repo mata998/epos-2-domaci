@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/84303218ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sign-up.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="button fa" onclick="openSideBar()">
+            &#xf0c9;
+        </div>
+
+        <ul>
+            <a href="../index.html"><li>Pocetna</li></a>
+            <a href="../pages/products.html"><li>Nasi proizvodi</li></a>
+            <a href="#"><li>Postani deo ekipe</li></a>
+            <a href="#"><li>zzzz</li></a>
+        </ul>
+    </nav>
+
+    <div class="side-nav">
+            <div class="button fa" onclick="closeSideBar()">
+                &#xf00d;
+            </div>
+    
+            <ul>
+                <a href="../index.html"><li>Pocetna</li></a>
+                <a href="../pages/products.html"><li>Nasi proizvodi</li></a>
+                <a href="#"><li>Postani deo ekipe</li></a>
+                <a href="#"><li>zzzz</li></a>
+            </ul>
+    </div>
+
+
+    <div class="whole-page-container">
+
+        <h1 class="title">Pridruzi nam se</h1>
+
+        <div class="card-box">
+            <div class="card">
+
+                <div class="card-front">
+                    <form id="sign-up-form" action="#">
+
+                        <div class="label">Ime i prezime</div>
+                        <input type="text" placeholder="Unesite ime i prezime">
+
+                        <div class="label">Telefon</div>
+                        <input type="text" placeholder="Unesite broj telefona">
+
+                        <div class="label">E-mail</div>
+                        <input type="text" placeholder="Unesite vasu e-mail adresu">
+
+                        <div class="button">Postani clan!</div>
+     
+                    </form>
+
+                    <div class="right-container">
+                        <h2>Sta dobijas ako se prijavis?</h2>
+                        <div class="button" onclick="flipCard()">Vise informacija</div>
+                    </div>
+                </div>
+
+                <div class="card-back">
+                    <div class="left-container">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati numquam laudantium, reprehenderit quis dignissimos minus eum dicta optio molestias, ex accusamus! Laboriosam veritatis quasi, ipsam, temporibus quos illo reiciendis iusto dolorem quibusdam a reprehenderit. Optio, quae placeat dolore nam similique est aliquam quia praesentium veniam eos vero facilis hic?
+                    </div>
+
+                    <div class="right-container">
+                        <h2>Sta cekas?</h2>
+                        <div class="button" onclick="flipCardAgain()">
+                            Postani clan!
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- kraj whole-page-container a -->
+
+    <footer>
+        <div>
+            <i class="far fa-copyright"></i> Designed by 3ipoglave
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -10,3 +10,19 @@ function openSideBar() {
     document.querySelector(".whole-page-container").style.transform = "translateX(-30%)";
 }
 
+
+function goToProduct(){
+    window.location.href = "../pages/one-product.html";
+
+}
+
+
+function flipCard(){
+    document.querySelector(".card")
+        .style.transform = "rotateY(180deg)";
+}
+
+function flipCardAgain(){
+    document.querySelector(".card")
+        .style.transform = "rotateY(0)";
+}
