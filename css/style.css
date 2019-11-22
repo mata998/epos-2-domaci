@@ -149,13 +149,13 @@ nav li{
     list-style-type: none;
 }
 
-
-/* SECTION 1 */
-
 .whole-page-container{
     transition: all 1s ease;
 }
 
+
+
+/* SECTION 1 */
 .section-1{
     height: calc(100vh - 70px);
     position: relative;
@@ -166,9 +166,24 @@ nav li{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-    /* border: 1px solid red; */
 }
+
+/* za transparentu pozadinu  */
+/* .section-1::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    
+    opacity: 0.6;
+    background-image: url("../images/landing-page-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
 
 .section-1 .containter{
     text-align: center;
@@ -200,9 +215,8 @@ nav li{
 
 .section-2 .left-containter{
     width: 50%;
-    margin: 30px 30px;
+    margin: 30px 50px;
 
-    /* border: 1px solid red; */
 }
 
 .section-2 .left-containter h1{
@@ -212,13 +226,13 @@ nav li{
 .section-2 .left-containter p{
     margin-top: 30px;
     width: 80%;
-    /* word-spacing: 3px; */
+    line-height: 25px;
     letter-spacing: 2px;
 }
 
 .section-2 .right-container{
     width: 50%;
-    margin: 30px 30px;
+    margin: 30px 50px;
     text-align: center;
     /* border: 1px solid red; */
 }
@@ -227,21 +241,21 @@ nav li{
 /* SECTION 3 */
 
 .section-3{
-    min-height: 300px;
-    background-image: url("../images/landing-parallax.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    background-attachment: fixed;
-    opacity: 0.7;
-
+    min-height: 350px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* border: 1px solid red; */
+    
+    /* background-image: url("../images/landing-parallax.jpg"); */
+    background-image: url("../images/parallax-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
 }
+
 
 .section-3 h1{
     background-color: rgb(36, 36, 36);
@@ -256,14 +270,12 @@ nav li{
     display: flex;
     justify-content: center;
 
-    /* border: 1px solid red; */
 }
 
 .section-4 .left-containter{
     width: 50%;
-    margin: 0 30px;
+    margin: 0 50px;
 
-    /* border: 1px solid red; */
 }
 
 .section-4 .left-containter ul{
@@ -276,9 +288,8 @@ nav li{
 
 .section-4 .right-container{
     width: 50%;
-    margin: 0 30px;
+    margin: 0 50px;
 
-    /* border: 1px solid red; */
 }
 
 
@@ -289,12 +300,10 @@ footer{
     background-color: black;
 
     border-top: 1px solid whitesmoke
-    /* border-top: 3px solid rgb(65, 65, 65); */
 }
 
 footer div{
     border-top: 1px solid whitesmoke;
-    /* border-top: 3px solid rgb(65, 65, 65); */
 
     margin-top: 5px;
     padding-top: 10px;

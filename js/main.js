@@ -1,3 +1,7 @@
+
+var products = [];
+var pages = [];
+
 function closeSideBar() {
     sideNav = document.querySelector(".side-nav");
     sideNav.style.transform = "translateX(100%)";

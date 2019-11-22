@@ -1,0 +1,100 @@
+[
+{
+"ime": "Deluxe Karamela",
+"cena": "350",
+"slika": "../images/product-images/deluxe-karamela.png",
+"tip": "proteinskacokoladica",
+"tekst": "Ova prvoklasna cokoladica sadrzi cak 30grama proteina u svom sastavu, a pored toga krasi je slasan ukus karamele."
+},
+{
+"ime": "Kokos-bar",
+"cena": "150",
+"slika": "../images/product-images/kokos.png",
+"tip": "proteinskacokoladica",
+"tekst": "Vazi za najjeftiniju cokoladicu u nasoj ponudi, mada ne sudite o knjizi po njenim koricama. Osobe koje su je probale rekle su da bolji bounty u zivotu nisu jele"
+},
+{
+"ime": "Krofna-Bar",
+"cena": "220",
+"slika": "../images/product-images/krofna.png",
+"tip": "proteinskacokoladica",
+"tekst": "Da je ova proteinska krofna postojala u doba Simpsonova, Homer bi imao six-pack i bio bi i FIT i SIT"
+},
+{
+"ime": "Lesnik-Bar",
+"cena": "190",
+"slika": "../images/product-images/lesnik.png",
+"tip": "proteinskacokoladica",
+"tekst": ""
+},
+{
+"ime": "Snickers-Bar",
+"cena": "400",
+"slika": "../images/product-images/snikers.png",
+"tip": "proteinskacokoladica",
+"tekst": "Zamislite da jedete savrsen snickers, a da pritom ne morate da mislite o stetnim secerima koje pritom unosite.Sada je to moguce uz nasu snickers proteinsku cokoladicu sa cak 32% proteina."
+},
+{
+"ime": "Oreo-Bar",
+"cena": "350",
+"slika": "../images/product-images/oreo.png",
+"tip": "proteinskacokoladica",
+"tekst": "Ovaj trend nam stize sa zapada, a to je dobro poznati Oreo ukus na zdraviji i elegantniji nacin.Za prave ljubitelje keksa preporucujemo Oreo protein bar"
+},
+{
+"ime": "Vegan-Bar",
+"cena": "230",
+"slika": "../images/product-images/veganska-cokoladica.png",
+"tip": "proteinskacokoladica",
+"tekst": "Mi mislimo na sve, te smo kreirali savrsenu cokoladicu sa 0% zivotinjskih proizvoda. Medjutim nemojte da mislite da smo stedeli na ukusu, tu je stevia sa savrsenom dozom sojinog proteina u cak 3 ukusa"
+},
+{
+"ime": "Mokos-Kokos bar",
+"cena": "270",
+"slika": "../images/product-images/kokos2.png",
+"tip": "proteinskacokoladica",
+"tekst": "Ovu kokosovu cokoladicu krasi to sto i ako ima 0% secera, ukus joj je jako blizac kokos torti koju mozete da pojedete na slavi. A nakon toga nemate zasto da se kajete, jer uz pomoc unapredjenje recepture, ovu kokos cokoladicu krasi unos proteina koji biste uneli kao da ste pojeli 150 pileceg filea."
+},
+{
+"ime": "USN 3XT PUMP",
+"cena": "4990",
+"slika": "../images/product-images/usn3xtpump.png",
+"tip": "preworkout",
+"tekst": "Jedna merica je dovoljna da pojaca dotok kiseonika vasim misicima i podigne vam energiju jer sadrzi 300mg kofeina"
+},
+{
+"ime": "PreWOD Pre-Workout",
+"cena": "4499",
+"slika": "../images/product-images/PreWOD-Pre-Workout.png",
+"tip": "preworkout",
+"tekst": "Kako povecati svoje performanse u teretani? Probajte ovaj preworkout i iznenadicete se sta sve mozete"
+},
+{
+"ime": "Ascent Pre-Worukout",
+"cena": "3499",
+"slika": "../images/product-images/Ascent-Pre-Worukout.png",
+"tip": "preworkout",
+"tekst": "Ako vam je ikada tesko da ustanete i odete do teretane, dovoljna je jedna merica da odma iskocite iz kreveta i trcite na trening"
+},
+{
+"ime": "Pre-Workout Protein blend",
+"cena": "3999",
+"slika": "../images/product-images/Pre-Workout-Protein-blend.png",
+"tip": "preworkout",
+"tekst": "Kombinacija proteina i preworkouta tako da vam je dovoljan jedan sejk kako bi dobili sve sto vam treba"
+},
+{
+"ime": "Grenade 50 calibre",
+"cena": "5499",
+"slika": "../images/product-images/Grenade-50-calibre.png",
+"tip": "preworkout",
+"tekst": "Kao sto mu ime prilici ovaj preworkout je prava BOMBA"
+},
+{
+"ime": "Keto perform",
+"cena": "4499",
+"slika": "../images/product-images/Keto-perform.png",
+"tip": "preworkout",
+"tekst": "Ako ste na keto dieti i treba vam jos energije u teretani necete naci bolji proizvod"
+}
+]
