@@ -21,7 +21,7 @@
             <a href="../index.html"><li>Pocetna</li></a>
             <a href="#"><li>Nasi proizvodi</li></a>
             <a href="sign-up.html"><li>Postani deo ekipe</li></a>
-            <a href="#"><li>zzzz</li></a>
+            <a href="../index.html#kontakt"><li>Kontakt</li></a>
         </ul>
     </nav>
 
@@ -34,7 +34,7 @@
                 <a href="../index.html"><li>Pocetna</li></a>
                 <a href="#"><li>Nasi proizvodi</li></a>
                 <a href="sign-up.html"><li>Postani deo ekipe</li></a>
-                <a href="#"><li>zzzz</li></a>
+                <a href="../index.html#kontakt"><li>Kontakt</li></a>
             </ul>
     </div>
 
@@ -46,16 +46,17 @@
             
             <div class="search">
                 <span>Pretrazite po imenu</span>
-                <input type="text" placeholder="Ime proizvoda" />
+                <input id="search-input" type="text" placeholder="Ime proizvoda" />
             </div>
 
             <div class="filter-type">
                 <span>Izaberite vrstu proizvoda</span>
                 <div class="box fa">
-                    <select class="drop-down-type">
+                    <select class="drop-down-type" onchange="mainFilter()">
+                        <option value="">Svi</option>
                         <option value="">Protein</option>
-                        <option value="">Reaktor</option>
-                        <option value="">Gejner</option>
+                        <option value="">Preworkout</option>
+                        <option value="">Cokoladica</option>
                     </select>
                     <div class="button"><i class="fas fa-chevron-down"></i></div>
                 </div>
@@ -64,7 +65,7 @@
             <div class="filter-price">
                 <span>Sortirajte po ceni</span>
                 <div class="box">
-                    <select class="drop-down-price">
+                    <select class="drop-down-price" onchange="mainFilter()">
                             <option value="">Izaberite</option>
                             <option value="">Opadajuce</option>
                             <option value="">Rastuce</option>
@@ -88,11 +89,16 @@
                         <div class="product-info">
                             <div class="name"> Whey protein</div>
                             <div class="price">4000din</div>
-                            <div class="button" onclick="goToProduct()">
+                            <div class="button">
                                 Vise informacija
                             </div>
                         </div>
                 </div> -->        
+
+                <div class="errorBox">
+                    Nazalost nema proizvoda koji odgovaraju vasoj pretrazi
+                </div>
+
 
             </div>
 

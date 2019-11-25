@@ -3,56 +3,56 @@
 "ime": "Deluxe Karamela",
 "cena": "350",
 "slika": "../images/product-images/deluxe-karamela.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Ova prvoklasna cokoladica sadrzi cak 30grama proteina u svom sastavu, a pored toga krasi je slasan ukus karamele."
 },
 {
 "ime": "Kokos-bar",
 "cena": "150",
 "slika": "../images/product-images/kokos.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Vazi za najjeftiniju cokoladicu u nasoj ponudi, mada ne sudite o knjizi po njenim koricama. Osobe koje su je probale rekle su da bolji bounty u zivotu nisu jele"
 },
 {
 "ime": "Krofna-Bar",
 "cena": "220",
 "slika": "../images/product-images/krofna.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Da je ova proteinska krofna postojala u doba Simpsonova, Homer bi imao six-pack i bio bi i FIT i SIT"
 },
 {
 "ime": "Lesnik-Bar",
 "cena": "190",
 "slika": "../images/product-images/lesnik.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": ""
 },
 {
 "ime": "Snickers-Bar",
 "cena": "400",
 "slika": "../images/product-images/snikers.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Zamislite da jedete savrsen snickers, a da pritom ne morate da mislite o stetnim secerima koje pritom unosite.Sada je to moguce uz nasu snickers proteinsku cokoladicu sa cak 32% proteina."
 },
 {
 "ime": "Oreo-Bar",
 "cena": "350",
 "slika": "../images/product-images/oreo.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Ovaj trend nam stize sa zapada, a to je dobro poznati Oreo ukus na zdraviji i elegantniji nacin.Za prave ljubitelje keksa preporucujemo Oreo protein bar"
 },
 {
 "ime": "Vegan-Bar",
 "cena": "230",
 "slika": "../images/product-images/veganska-cokoladica.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Mi mislimo na sve, te smo kreirali savrsenu cokoladicu sa 0% zivotinjskih proizvoda. Medjutim nemojte da mislite da smo stedeli na ukusu, tu je stevia sa savrsenom dozom sojinog proteina u cak 3 ukusa"
 },
 {
 "ime": "Mokos-Kokos bar",
 "cena": "270",
 "slika": "../images/product-images/kokos2.png",
-"tip": "proteinskacokoladica",
+"tip": "proteinska cokoladica",
 "tekst": "Ovu kokosovu cokoladicu krasi to sto i ako ima 0% secera, ukus joj je jako blizac kokos torti koju mozete da pojedete na slavi. A nakon toga nemate zasto da se kajete, jer uz pomoc unapredjenje recepture, ovu kokos cokoladicu krasi unos proteina koji biste uneli kao da ste pojeli 150 pileceg filea."
 },
 {
@@ -96,5 +96,75 @@
 "slika": "../images/product-images/Keto-perform.png",
 "tip": "preworkout",
 "tekst": "Ako ste na keto dieti i treba vam jos energije u teretani necete naci bolji proizvod"
+},
+{
+"ime": "Havoc",
+"cena": "6499 dinara",
+"slika": "../images/product-images/Havoc.png",
+"tip": "preworkout",
+"tekst": "Zelite da se osecate kao zivotinja u teretani, ovo je pravi proizvod za vas"
+},
+{
+"ime": "Boogieman",
+"cena": "1999 dinara",
+"slika": "../images/product-images/Boogieman.png",
+"tip": "preworkout",
+"tekst": "Za ovu cenu necete naci bolji preworkout"
+},
+{
+"ime": "Combat Super",
+"cena": "4999",
+"slika": "../images/product-images/Combat.png",
+"tip": "protein",
+"tekst": "Najbrzi nacin do velikih misica"
+},
+{
+"ime": "Muscle Milk",
+"cena": "5499",
+"slika": "../images/product-images/Milk.png",
+"tip": "protein",
+"tekst": "Ako volite mleko ovaj protein je za vas, pomesajte ga sa mlekom za najbolji ukus"
+},
+{
+"ime": "Whey Cokolada",
+"cena": "3799",
+"slika": "../images/product-images/Cokolada.png",
+"tip": "protein",
+"tekst": "Dobro poznati protein sa nekim novim ukusom"
+},
+{
+"ime": "Pure protein",
+"cena": "3999",
+"slika": "../images/product-images/Pure.png",
+"tip": "protein",
+"tekst": "100% protein 100% veci misici"
+},
+{
+"ime": "Sintha 6",
+"cena": "6999",
+"slika": "../images/product-images/Sinth.png",
+"tip": "protein",
+"tekst": "Miks proteina i kofeina vam daje dodatnu energiju za trening"
+},
+{
+"ime": "Serious Mass",
+"cena": "8999",
+"slika": "../images/product-images/Serious.png",
+"tip": "protein",
+"tekst": "Ako ste dosli do svog maksimuma i mislite da vise nema dalje prevarili ste se."
+},
+{
+"ime": "Select Protein",
+"cena": "4999",
+"slika": "../images/product-images/Select.png",
+"tip": "protein",
+"tekst": "Novi ukus kolacica je nesto sto morate probati"
+},
+{
+"ime": "Nature Way",
+"cena": "5499",
+"slika": "../images/product-images/Nature.png",
+"tip": "protein",
+"tekst": "Pravljen od biljnog proteina koji je odlicna zamena za zivotinjske ako ste vegan"
 }
 ]

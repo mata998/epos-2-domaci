@@ -21,7 +21,7 @@
             <a href="../index.html"><li>Pocetna</li></a>
             <a href="../pages/products.html"><li>Nasi proizvodi</li></a>
             <a href="#"><li>Postani deo ekipe</li></a>
-            <a href="#"><li>zzzz</li></a>
+            <a href="../index.html#kontakt"><li>Kontakt</li></a>
         </ul>
     </nav>
 
@@ -34,7 +34,7 @@
                 <a href="../index.html"><li>Pocetna</li></a>
                 <a href="../pages/products.html"><li>Nasi proizvodi</li></a>
                 <a href="#"><li>Postani deo ekipe</li></a>
-                <a href="#"><li>zzzz</li></a>
+                <a href="../index.html#kontakt"><li>Kontakt</li></a>
             </ul>
     </div>
 
@@ -50,15 +50,24 @@
                     <form id="sign-up-form" action="#">
 
                         <div class="label">Ime i prezime</div>
-                        <input type="text" placeholder="Unesite ime i prezime">
+                        <div id="name-error" class="error-msg">
+                            Unesite makar dve reci!
+                        </div>
+                        <input id="name-input" type="text" placeholder="Unesite ime i prezime">
 
                         <div class="label">Telefon</div>
-                        <input type="text" placeholder="Unesite broj telefona">
+                        <div id="phone-error" class="error-msg">
+                            Koristite samo cifre!
+                        </div>
+                        <input id="phone-input" type="text" placeholder="Unesite broj telefona">
 
                         <div class="label">E-mail</div>
-                        <input type="text" placeholder="Unesite vasu e-mail adresu">
+                        <div id="mail-error" class="error-msg">
+                            Vas mail mora imati @ znak!
+                        </div>
+                        <input id="mail-input" type="text" placeholder="Unesite vasu e-mail adresu">
 
-                        <div class="button">Postani clan!</div>
+                        <div class="button" onclick="validateForm()">Postani clan!</div>
      
                     </form>
 
@@ -70,7 +79,17 @@
 
                 <div class="card-back">
                     <div class="left-container">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati numquam laudantium, reprehenderit quis dignissimos minus eum dicta optio molestias, ex accusamus! Laboriosam veritatis quasi, ipsam, temporibus quos illo reiciendis iusto dolorem quibusdam a reprehenderit. Optio, quae placeat dolore nam similique est aliquam quia praesentium veniam eos vero facilis hic?
+                        <h2>Akcije</h2>
+
+                        <p>Ukoliko nam ostavite Vaše podatke ostvarujete priliku da dobijate mesečne ponude preko mejla, i ne samo to već ćemo vam dodeliti sestocifreni kod za 20% popusta pri prvoj porudžbini.
+                        </p>
+
+                        <ul>
+                            <li>20% popusta na sve veganske proteine</li>
+                            <li>10% popusta na ultimate-Nutrition proizvode</li>
+                            <li>15% popusta na Scy-Tech proizvode</li>
+                            <li>3+1 čokoladica gratis</li>
+                        </ul>
                     </div>
 
                     <div class="right-container">
@@ -94,5 +113,6 @@
     </footer>
 
     <script src="../js/main.js"></script>
+    <script src="../js/sign-up.js"></script>
 </body>
 </html>

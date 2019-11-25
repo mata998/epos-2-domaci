@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  
+
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/84303218ae.js" crossorigin="anonymous"></script>
     <title>Sajt</title>
@@ -20,7 +25,7 @@
             <a href="#"><li>Pocetna</li></a>
             <a href="pages/products.html"><li>Nasi proizvodi</li></a>
             <a href="pages/sign-up.html"><li>Postani deo ekipe</li></a>
-            <a href="#"><li>zzzz</li></a>
+            <a href="#kontakt"><li>Kontakt</li></a>
         </ul>
     </nav>
 
@@ -33,7 +38,7 @@
                 <a href="#"><li>Pocetna</li></a>
                 <a href="pages/products.html"><li>Nasi proizvodi</li></a>
                 <a href="pages/sign-up.html"><li>Postani deo ekipe</li></a>
-                <a href="#"><li>zzzz</li></a>
+                <a href="#kontakt" onclick="closeSideBar()"><li>Kontakt</li></a>
             </ul>
     </div>
 
@@ -65,8 +70,24 @@
 
             <div class="right-container">
                 <h1>
-                    Slajder
+                    Najpopularniji proizvodi
                 </h1>
+
+                <div class="slider-container">
+                    <div class="slide">
+                        <img src="./images/product-images/PreWOD-Pre-Workout.png" alt="proizvod">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/product-images/oreo.png" alt="proizvod">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/product-images/Keto-perform.png" alt="proizvod">
+                    </div>
+                                                        
+                </div>
+
             </div>
 
         </div>
@@ -81,32 +102,24 @@
 
         <div class="section-4">
             
-            <div class="left-containter">
                 <h1>
-                    Kontakt
+                    <a name="kontakt"></a> Kontakt
                 </h1>
                 <ul>
-                    kad fontawesome proradi ubacicu ikonice 
                     <li>
-                        069/1099-603
+                        <i class="fas fa-phone-alt"></i>069/1099-603
                     </li>
                     <li>
-                        Jove Ilica 33
+                        <i class="fas fa-map-marker-alt"></i>Jove Ilica 33
                     </li>
                     <li>
-                        natural.suplement@gmail.com
+                        <i class="far fa-envelope"></i>natural.suplement@gmail.com
                     </li>
                     <li>
-                        @natual.suplement
+                        <i class="fab fa-instagram"></i>@natual.suplement
                     </li>
                 </ul>
-            </div>
 
-            <div class="right-container">
-                <h1>
-                    Mapa
-                </h1>
-            </div>
 
         </div>
 
@@ -120,6 +133,21 @@
     </div> 
     <!-- kraj whole-page-container a -->
 
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- slick -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        $('.slider-container').slick({
+            arrows : false,
+            speed:800,
+            infinite: true
+        });
+    </script>
+
+
     <script src="js/main.js"></script>
+
 </body>
 </html>
