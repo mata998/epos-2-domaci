@@ -8,7 +8,7 @@ function closeSideBar() {
 function openSideBar() {
     sideNav = document.querySelector(".side-nav");
     sideNav.style.transform = "translateX(0)";
-    document.querySelector(".whole-page-container").style.transform = "translateX(-260px)";
+    document.querySelector(".whole-page-container").style.transform = "translateX(-280px)";
 }
 
 function flipCard(){
